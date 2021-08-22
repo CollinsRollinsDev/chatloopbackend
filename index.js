@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000
 // const io = require('socket.io')(http)
 const io = require("socket.io")(http, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chatloop.vercel.app",
     methods: ["GET", "POST"]
   }
 });
