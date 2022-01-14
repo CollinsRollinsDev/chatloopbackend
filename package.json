@@ -4,6 +4,7 @@
   "description": "Backend for Chatloop application",
   "main": "server.js",
   "scripts": {
+    "start": "node index.js",
     "index": "nodemon server.js"
   },
   "author": "Collins Rollins",
